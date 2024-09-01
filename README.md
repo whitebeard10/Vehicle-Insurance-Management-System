@@ -56,7 +56,7 @@ The **Vehicle Insurance Management System** is a full-stack web application desi
 
 ## Contributing
 
-Contributions to Farm2Home are welcome and appreciated! Here's how you can contribute:
+Contributions to project are welcome and appreciated! Here's how you can contribute:
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/YourFeature`)
