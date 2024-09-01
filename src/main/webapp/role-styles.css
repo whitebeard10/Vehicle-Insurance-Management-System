@@ -1,0 +1,84 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  background-color: #a2cbcd;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar h1 {
+  margin: 0;
+  color: #00010f;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container {
+  background: #fff;
+  padding: 40px 60px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 100px; /* Added margin to push the form below the navbar */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #717a7c;
+}
+
+label {
+  font-size: 18px;
+  color: #717a7c;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+  width: 100%;
+  max-width: 300px;
+}
+
+input {
+  padding: 12px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #c0d8d8;
+  color: #00010f;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a2cbcd;
+}
