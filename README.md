@@ -52,7 +52,7 @@ The **Vehicle Insurance Management System** is a full-stack web application desi
    ```
 2. **Create the database from the sql file provided**
     `database.sql`
-3. **Set up your Eclipse EE environment for `Dynamic Web project` **
+3. **Set up your Eclipse EE environment for `Dynamic Web project`**
 
 ## Contributing
 
